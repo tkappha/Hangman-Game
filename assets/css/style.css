@@ -1,0 +1,70 @@
+* {
+	background: black;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: 2px ridge #0C833D;
+}
+
+#title {
+	display: block;
+	margin: auto;
+	width: 37%;
+	padding: 10px;
+	border: 1px solid #0C833D;
+
+}
+
+#getStarted {
+	width: 100%;
+}
+
+
+h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #35f78a;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.panel-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #35f78a;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+
+#hangmanContainer {
+	width: 100%;
+}
+
+#displayPicture {
+	border-right: 1px solid #0C833D;
+}
+	
+.picture {
+	width: 75%;
+	margin: auto;
+	padding: 5%;
+}
+
+.panel-heading {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.panel-default {
+	border: 1px solid #0C833D;
+}

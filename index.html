@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Game</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<!-- Jumbotron title header -->
+	<div class="jumbotron">
+		<img src="assets/images/hangman_main_title.png" id="title">
+	</div>
+
+	<!-- Press any key row -->
+	<div class="container" id="getStarted">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Press any key to start</h2>
+			</div>
+	 	</div>  <!-- row-->
+	</div> <!--container -->
+
+	<!-- Row contains guesses countdown, letters guessed, word to be guessed & pics -->
+	<div class="container" id="hangmanContainer">
+		<div class="row">
+			<div class="col-xs-12  col-sm-6" id="displayPicture">
+				<img src="assets/images/standby.png" class="picture">
+			</div>
+			<div class="col-xs-12 col-sm-6" id="displayInfo">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Guess the word!</h3>
+					</div> <!-- panel-heading -->
+					<div class="panel-body">
+						<h3 id="wordToGuess"></h3>
+					</div> <!-- panel-heading -->
+				</div> <!-- panel-default -->
+
+				<!-- Letters Guessed -->
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h3>Letters Guessed: <span id="wrongGuesses"></span></h3>
+					</div> <!-- panel body -->
+				</div>
+
+				<!-- Guesses left countdown -->
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h3>Guesses Left: <span id="numGuesses"></span></h3>
+					</div> <!-- panel body -->
+				</div>
+
+				<!-- Displays number of wins & losses-->
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h3>Wins: <span id="winCounter"></span></h3>
+						<h3>Losses: <span id="lossCounter"></span></h3>
+					</div> <!-- panel body -->
+
+				</div>
+
+				
+			</div>
+		</div> <!--row -->
+	</div> <!--container -->
+
+	<!-- Link to javascript -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
